@@ -13,4 +13,5 @@ provider "azurerm" {
     # Enable AzureRM Managed Identities for AKS
     #enable_managed_identity = true
   }
+  resource_provider_registrations = "none"
 }
