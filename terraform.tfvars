@@ -1,4 +1,4 @@
-resource_group_name = "AKS-resource-group"
+resource_group_name = "AKS-rg"
 location            = "centralindia"
 nsg_name            = "nsg-security-group"
 vnet_name           = "VNET-net"
