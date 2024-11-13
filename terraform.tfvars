@@ -1,7 +1,7 @@
-resource_group_name = "Vnet-resource-group"
+resource_group_name = "AKS-resource-group"
 location            = "centralindia"
 nsg_name            = "nsg-security-group"
-vnet_name           = "example-network"
+vnet_name           = "VNET-network"
 address_space       = ["10.0.0.0/16"]
 dns_servers         = ["10.0.0.4", "10.0.0.5"]
 subnet1_name        = "subnet1"
