@@ -9,4 +9,8 @@ terraform {
 
 provider "azurerm" {
   # Configuration options
+  features {
+    # Enable AzureRM Managed Identities for AKS
+    enable_managed_identity = true
+  }
 }
