@@ -69,3 +69,13 @@ variable "tags" {
 
 # {environment = "Production"
 # owner= "Sourav"}
+
+variable "credentials"{
+  description = "stored SP related credentials"
+  type = object({
+    client_id = string,
+    object_id = string,
+    client_secret = string,
+    tenant_id = string,
+  })
+}
